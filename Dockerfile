@@ -8,3 +8,4 @@ COPY templates/ templates/
 ARG APP_VERSION="alpha"
 ENV APP_VERSION=${APP_VERSION}
 CMD ["python3", "app.py"]
+
